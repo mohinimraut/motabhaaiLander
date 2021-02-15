@@ -1,0 +1,878 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#cont {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hometitle1 {
+  font-size: 40px;
+  color: #2c3d63;
+  text-align: center;
+}
+.hometitle {
+  font-size: 40px;
+  color: #2c3d63;
+  text-align: initial;
+}
+.freedigitalman {
+  width: 70%;
+  height: 70%;
+}
+.launchnum {
+  font-size: 40px;
+  font-weight: bold;
+}
+#emailplaceholder::placeholder {
+  color: #d3d3d3;
+}
+.btnstay {
+  margin-left: 5%;
+  margin-right: 10%;
+  background-color: rgb(42, 62, 99);
+  border-radius: 20px;
+}
+.parastay {
+  color: white;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 30px;
+  align-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.paraemail {
+  margin: 30px;
+}
+.form-control {
+  border-radius: 10px;
+  font-size: 19px;
+}
+
+/* final Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+  .hometitle1{
+    font-size: 30px;
+  }
+  #extrasmallbottomlast{
+    /* height:15rem; */
+    font-size: 13px;
+    
+  }
+  #extrasmalllaunch{
+    margin-top: -75px;
+  }
+  #rightmaincontainer {
+    flex: 1;
+    position: relative;
+  }
+  #desktopbottom {
+    display: none;
+  }
+  #timercontainer {
+    padding-bottom: 40px;
+  }
+  .btnstay {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(42, 62, 99);
+    border-radius: 15px;
+  }
+  #btnhide {
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    top: -75px;
+  }
+  #parastay {
+    font-size: 20px;
+  }
+  #rightmaincontainer {
+    position: relative;
+  }
+  #ipadview {
+    display: none;
+  }
+  #addemailcontainer {
+    display: none;
+  }
+  #newbottom1800 {
+    display: none;
+  }
+  #ipadbottom {
+    display: none;
+  }
+
+  img#optionalstuff {
+    display: none;
+  }
+  #allcontainerlogoexceptES {
+    display: none;
+  }
+  img#optionalstuf {
+    display: none;
+  }
+  #parastay {
+    display: none;
+  }
+  .parastay {
+    font-size: 10px;
+  }
+  #ipadview {
+    display: none;
+  }
+  #msview {
+    display: none;
+  }
+  #tableaddresstext {
+    text-align: left;
+  }
+  img#optionalstuf {
+    display: none;
+  }
+  #parastay {
+    display: none;
+  }
+  .parastay {
+    font-size: 10px;
+  }
+  #ipadview {
+    display: none;
+  }
+  #tablediv {
+    display: none;
+  }
+  #tablediv {
+    display: none;
+  }
+  #emailtext {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -7px;
+    margin-top: -12px;
+  }
+  #emailt {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #addt {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -20px;
+  }
+  #addtext {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -7px;
+    margin-top: -12px;
+  }
+  #emailtextcontainer {
+    margin-left: -90px;
+  }
+  #secondcontainer {
+    margin-left: 10px;
+  }
+  #emailplaceholder::placeholder {
+    font-size: 10px;
+  }
+}
+
+/* Final 992 to 1199.98px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #largelink {
+    text-align: center;
+  }
+  #new {
+    display: none;
+  }
+  #rightmaincontainer {
+    flex: 1;
+    position: relative;
+  }
+  #desktopbottom {
+    position: absolute;
+    bottom: 0;
+  }
+  img#optionalstuffs {
+    display: none;
+  }
+  img#optionalstuff {
+    display: none;
+  }
+  #msview {
+    display: none;
+  }
+  #btnhide {
+    display: none;
+  }
+  #tablediv {
+    display: none;
+  }
+  #ipadview {
+    display: none;
+  }
+  #addemailcontainer {
+    display: none;
+  }
+  #newbottom1800 {
+    display: none;
+  }
+  #extrasmallbottomlast {
+    display: none;
+  }
+  #timercontainer {
+    padding-bottom: 40px;
+  }
+  #msview {
+    display: none;
+  }
+
+  #emailt {
+    width: 50px;
+    margin-left: -55px;
+    font-size: 20px;
+  }
+  #addt {
+    width: 50px;
+    margin-left: -25px;
+    font-size: 20px;
+    padding-top: 1px;
+  }
+  #addtext {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+
+    font-size: 20px;
+    width: 650px;
+  }
+
+  #emailtext {
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  #tablediv {
+    display: none;
+  }
+  #ipadview {
+    display: none;
+  }
+
+  #msview {
+    display: none;
+  }
+  img#optionalstuff {
+    display: none;
+  }
+  #tablediv {
+    display: none;
+  }
+  #ipadview {
+    display: none;
+  }
+  #addemailcontainer {
+    display: none;
+  }
+  #newbottom1800 {
+    display: none;
+  }
+  #ipadbottom {
+    display: none;
+  }
+  #msview {
+    display: none;
+  }
+  img#optionalstuff {
+    display: none;
+  }
+  #btnhide {
+    display: none;
+  }
+  #tablediv {
+    display: none;
+  }
+  #ipadview {
+    display: none;
+  }
+}
+
+/* @media (min-width: 769px) and (max-width: 1023px) {
+  #extrasmallbottomlast {
+    display: none;
+  }
+  #msview {
+    display: none;
+  }
+  img#optionalstuf {
+    display: none;
+  }
+  #parastay {
+    display: none;
+  }
+  img#mainimg {
+    float: right;
+    width: 100%;
+    height: 100%;
+  }
+
+  #headingdiv {
+    float: left;
+    margin-top: 10%;
+  }
+  #smallhead1 {
+    float: left;
+    margin-top: 2%;
+  }
+
+  #timerdiv {
+    float: left;
+  }
+  #tableaddtext {
+    width: 10%;
+    text-align: right;
+  }
+  #tableaddresstext {
+    width: 40%;
+    text-align: left;
+    border-right: 1px solid #add8e6;
+
+    border-right-width: 1px;
+  }
+
+  #tableemailt {
+    width: 5%;
+
+    text-align: left;
+  }
+  #tableemailname {
+    width: 40%;
+    text-align: left;
+  }
+  #tablediv {
+    display: none;
+  }
+} */
+
+@media (min-width: 1700px) {
+  #addemailcontainer {
+    display: none;
+  }
+}
+
+@media (min-width: 1900px) {
+  #desktopbottom{
+    width:100%
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #largelink {
+    text-align: left;
+  }
+  #extrasmallbottomlast {
+    display: none;
+  }
+  img#optionalstuff {
+    display: none;
+  }
+
+  #tablediv {
+    display: none;
+  }
+
+  #addemailcontainer {
+    display: none;
+  }
+  #msview {
+    display: none;
+  }
+  img#optionalstuff {
+    display: none;
+  }
+
+  #btnhide {
+    display: none;
+  }
+  #ipadview {
+    display: none;
+  }
+  #tablediv {
+    display: none;
+  }
+}
+
+/* // Final Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #smalllink {
+    text-align: left;
+  }
+  #extrasmallbottomlast {
+    display: none;
+  }
+
+  .btnstay {
+    width: 330px;
+    height: 75px;
+    background-color: rgb(42, 62, 99);
+    border-radius: 20px;
+  }
+
+  #btnhide {
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    left: 100px;
+  }
+  #rightmaincontainer {
+    position: relative;
+  }
+  #msview {
+    background-color: #add8e6;
+  }
+  #timercontainer {
+    padding-bottom: 25px;
+  }
+  #mcon {
+    margin: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #tablediv {
+    display: none;
+  }
+  #ipadview {
+    display: none;
+  }
+  #addemailcontainer {
+    display: none;
+  }
+  #desktopbottom {
+    display: none;
+  }
+  #newbottom1800 {
+    display: none;
+  }
+  #emailt {
+    width: 50px;
+    margin-left: -55px;
+  }
+  #addt {
+    width: 50px;
+    margin-left: -25px;
+  }
+  #addtext {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 35px;
+    margin-top: -34px;
+  }
+  #tablediv {
+    display: none;
+  }
+
+  img#optionalstuffs {
+    display: none;
+  }
+  .phonehead {
+    font-size: 20px;
+  }
+  .phonehead1 {
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .phonehead2 {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .launchnum {
+    font-size: 25px;
+  }
+  .mobtime {
+    font-size: 8px;
+    margin-left: 12px;
+  }
+  #addtext {
+    padding-right: 40px;
+  }
+  #emailtextcontainer {
+    margin-left: 10px;
+  }
+  #msview {
+    width: 100%;
+    height: 100%;
+  }
+
+  #emailt {
+    width: 50px;
+    margin-left: -11px;
+  }
+  #emailtextcontainer {
+    border-left: 1px solid white;
+  }
+  img#optionalstuf {
+    display: none;
+  }
+  #parastay {
+    display: none;
+  }
+
+  #webviewleftmancontainer {
+    display: none;
+  }
+
+  #ipadview {
+    display: none;
+  }
+  #tablediv {
+    display: none;
+  }
+}
+
+/*final Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #ipadbottom{
+    margin-top: 15rem;
+  }
+ 
+  #smalllink {
+    margin-left: -20px;
+  }
+  .btnstay {
+    width: 330px;
+    height: 75px;
+
+    background-color: rgb(42, 62, 99);
+    /* background-color:red; */
+
+    border-radius: 20px;
+  }
+
+  #btnhide {
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    left: 170px;
+  }
+  #rightmaincontainer {
+    position: relative;
+  }
+  #extrasmallbottomlast {
+    display: none;
+  }
+  #emailtextipad {
+    text-align: left;
+  }
+  #rightmaincontainer {
+    flex: 1;
+    position: relative;
+  }
+  /* #ipadbottom {
+    position: absolute;
+    bottom: 10;
+  } */
+  #ipadline {
+  }
+  #ipadaddressdetail {
+    padding-right: 50px;
+  }
+  #desktopbottom {
+    display: none;
+  }
+  #newbottom1800 {
+    display: none;
+  }
+  #addemailcontainer {
+    display: none;
+  }
+
+  img#optionalstuffs {
+    display: none;
+  }
+  #emailtextcontainer {
+    border-left: 1px solid white;
+  }
+  .hometitle1 {
+    font-size: 31px;
+    color: #2c3d63;
+    text-align: center;
+    margin-left: 5px;
+  }
+  .hometitle2 {
+    font-size: 18px;
+    color: #2c3d63;
+    margin-top: 20px;
+    margin-left: 26px;
+    text-align: center;
+  }
+  .hometitle3 {
+    font-size: 18px;
+    color: #2c3d63;
+    margin-left: 26px;
+    text-align: center;
+  }
+  #cont {
+    width: 100%;
+    height: 100%;
+  }
+  .launchnum {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 23px;
+  }
+  .launchnum1 {
+    font-size: 12px;
+    margin-left: 23px;
+  }
+  #emailtextcontainer {
+    border-left: 1px solid white;
+  }
+  #tableemaildiv {
+    border-left: 1px solid white;
+    height: 130px;
+    margin-top: 11px;
+  }
+  #tableaddresstext {
+    padding: 40px;
+    padding-right: 180px;
+  }
+  #tableemailname {
+    padding: 13px;
+  }
+  #msview {
+    display: none;
+  }
+
+  #webviewleftmancontainer {
+    display: none;
+  }
+  #ipadview {
+    background-color: #add8e6;
+  }
+  #tablediv {
+    display: none;
+  }
+  img#optionalstuf {
+    display: none;
+  }
+  #parastay {
+    display: none;
+  }
+  #freedigitalman {
+    width: 100%;
+    height: auto;
+  }
+
+  #msview {
+    display: none;
+  }
+  .hometitle1 {
+    font-size: 31px;
+    color: #2c3d63;
+    text-align: center;
+  }
+  #cont {
+    width: 100%;
+    height: 100%;
+  }
+  .launchnum {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  #emailt {
+    width: 50px;
+    /* margin-left: -55px; */
+    font-size: 17px;
+  }
+  #addt {
+    width: 50px;
+    margin-left: -25px;
+    font-size: 17px;
+    padding-top: 10px;
+  }
+  #addtext {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 48px;
+    margin-top: -40px;
+    font-size: 17px;
+    width: 650px;
+  }
+  #emailtext {
+    font-size: 17px;
+    padding-left: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1700px) {
+  #largelink {
+    text-align: left;
+    margin-left: -19px;
+  }
+  #new {
+    display: none;
+  }
+
+  #timercontainer {
+    padding-bottom: 60px;
+  }
+  #ipadbottom {
+    display: none;
+  }
+  #rightmaincontainer {
+    flex: 1;
+    position: relative;
+  }
+  #dektopemail {
+    text-align: left;
+    margin-left: -10px;
+  }
+  #desktopadd {
+    text-align: right;
+    margin-left: 50px;
+    padding-left: 40px;
+  }
+  #desktope {
+  }
+  #desktopbottom {
+    position: absolute;
+
+    bottom: 0;
+  }
+
+  #newbottom1800 {
+    display: none;
+  }
+  img#optionalstuffs {
+    display: none;
+  }
+  img#optionalstuff {
+    display: none;
+  }
+
+  #btnhide {
+    display: none;
+  }
+  #tablediv {
+    display: none;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #new {
+    display: none;
+  }
+  #timercontainer {
+    padding-bottom: 40px;
+  }
+  #ipadbottom {
+    display: none;
+  }
+  #rightmaincontainer {
+    flex: 1;
+    position: relative;
+  }
+
+  #desktopbottom {
+    position: absolute;
+
+    bottom: 0;
+  }
+
+  #newbottom1800 {
+    display: none;
+  }
+  img#optionalstuffs {
+    display: none;
+  }
+  img#optionalstuff {
+    display: none;
+  }
+
+  #btnhide {
+    display: none;
+  }
+  #tablediv {
+    display: none;
+  }
+}
+
+/* @media (min-width: 360px) and (max-width: 640px) { 
+  #new{
+    display:none
+  }
+  #tablediv{
+    display: none;
+  }
+ .secondLaunch{
+ margin-left:15px;
+ }
+ .launchnum{
+   margin-left:15px;
+ }
+ .launchbuttoncontainer{
+   margin-right:20px;
+ }
+ .btn-info{
+   font-size:10px;
+   width:100px;
+   height:40px;
+ }
+ 
+} */
